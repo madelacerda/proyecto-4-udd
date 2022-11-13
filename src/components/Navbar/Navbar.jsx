@@ -18,10 +18,10 @@ const Navbar = () => {
           <a href="#home">Home</a>
         </li>
         <li className="p__opensans">
-          <a href="#home">Sobre Nosotros</a>
+          <a href="#aboutus">Sobre Nosotros</a>
         </li>
         <li className="p__opensans">
-          <a href="#home">Menu</a>
+          <a href="#menu">Menu</a>
         </li>
         <li className="p__opensans">
           <a href="#home">Premios</a>
@@ -31,9 +31,6 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">
-          Log In/ Registrate
-        </a>
         <div />
         <a href="/" className="p__opensans">
           Reserva una Mesa!
@@ -58,10 +55,10 @@ const Navbar = () => {
                 <a href="#home">Home</a>
               </li>
               <li className="p__opensans">
-                <a href="#home">Sobre Nosotros</a>
+                <a href="#aboutus">Sobre Nosotros</a>
               </li>
               <li className="p__opensans">
-                <a href="#home">Menu</a>
+                <a href="#menu">Menu</a>
               </li>
               <li className="p__opensans">
                 <a href="#home">Premios</a>
