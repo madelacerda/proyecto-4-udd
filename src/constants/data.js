@@ -1,30 +1,30 @@
-import images from './images';
 
-const wines = [
+
+const pizza = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Pizza Margarita',
+    price: '$7.900',
+    tags: 'Salsa Pomodoro Napoli, Mozzarella Fior di latte y Albahaca fresca',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Prosciutto e Rucola',
+    price: '$10.900',
+    tags: 'Salsa Pomodoro Napoli, Mozzarella Fior di latte, Prosciutto crudo, Rúcula, Parmigiano Reggiano DOP y reducción de Aceto Balsámico',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Diavola',
+    price: '$9.900',
+    tags: 'Salsa Pomodoro Napoli, Mozzarella Fior di latte, Salame Napoli picante, Peperoncino y Aceitunas verdes',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: '4 formaggi',
+    price: '$9.900',
+    tags: 'Mozzarella Fior di latte, Parmigiano Reggiano DOP, Roquefort y Pecorino Romano',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Cotto e Funghi',
+    price: '$8.900',
+    tags: 'Salsa Pomodoro Napoli, Mozzarella Fior di latte, Jamón cocido y Champiñones salteados',
   },
 ];
 
@@ -56,27 +56,6 @@ const cocktails = [
   },
 ];
 
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-];
 
-export default { wines, cocktails, awards };
+
+export default { pizza, cocktails };
