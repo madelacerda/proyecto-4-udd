@@ -22,13 +22,13 @@ const Navbar = () => {
             </a>
           </li>
           <li className="p__opensans">
-            <a href="#about">Sobre Nosotros</a>
+            <a href="/#about">Sobre Nosotros</a>
           </li>
           <li className="p__opensans">
-            <a href="#menu">Menu</a>
+            <a href="/#menu">Menu</a>
           </li>
           <li className="p__opensans">
-            <a href="#contact">Contactanos</a>
+            <a href="/#contact">Contactanos</a>
           </li>
         </ul>
         <div className="app__navbar-login">
@@ -53,20 +53,30 @@ const Navbar = () => {
               />
               <ul className="app__navbar-smallscreen_links">
                 <li className="p__opensans">
-                  <a href="#home">Home</a>
+                  <a onClick={() => setToggleMenu(false)} href="/">
+                  <Link to="/">Home</Link>
+                  </a>
                 </li>
                 <li className="p__opensans">
-                  <a href="#about">Sobre Nosotros</a>
+                  <a onClick={() => setToggleMenu(false)} href="/#about">
+                    Sobre Nosotros
+                  </a>
                 </li>
                 <li className="p__opensans">
-                  <a href="#menu">Menu</a>
+                  <a onClick={() => setToggleMenu(false)} href="/#menu">
+                    Menu
+                  </a>
                 </li>
                 <li className="p__opensans">
-                  <a href="#contact">Contactanos</a>
+                  <a onClick={() => setToggleMenu(false)} href="/#contact">
+                    Contactanos
+                  </a>
                 </li>
                 <li className="p__opensans">
-                  <a href="reserva" className="p__opensans">
-                    <Link to="/reserva">Reserva una mesa!</Link>
+                  <a href="reserva" >
+                    <Link onClick={() => setToggleMenu(false)} to="/reserva">
+                      Reserva una mesa!
+                    </Link>
                   </a>
                 </li>
               </ul>
