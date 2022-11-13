@@ -18,16 +18,13 @@ const Navbar = () => {
           <a href="#home">Home</a>
         </li>
         <li className="p__opensans">
-          <a href="#aboutus">Sobre Nosotros</a>
+          <a href="#about">Sobre Nosotros</a>
         </li>
         <li className="p__opensans">
           <a href="#menu">Menu</a>
         </li>
         <li className="p__opensans">
-          <a href="#home">Premios</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#home">Contactanos</a>
+          <a href="#contact">Contactanos</a>
         </li>
       </ul>
       <div className="app__navbar-login">
@@ -55,16 +52,13 @@ const Navbar = () => {
                 <a href="#home">Home</a>
               </li>
               <li className="p__opensans">
-                <a href="#aboutus">Sobre Nosotros</a>
+                <a href="#about">Sobre Nosotros</a>
               </li>
               <li className="p__opensans">
                 <a href="#menu">Menu</a>
               </li>
               <li className="p__opensans">
-                <a href="#home">Premios</a>
-              </li>
-              <li className="p__opensans">
-                <a href="#home">Contactanos</a>
+                <a href="#contact">Contactanos</a>
               </li>
             </ul>
           </div>
