@@ -64,6 +64,11 @@ const Navbar = () => {
                 <li className="p__opensans">
                   <a href="#contact">Contactanos</a>
                 </li>
+                <li className="p__opensans">
+                  <a href="reserva" className="p__opensans">
+                    <Link to="/reserva">Reserva una mesa!</Link>
+                  </a>
+                </li>
               </ul>
             </div>
           )}
